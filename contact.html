@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Bloggies</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Bloggies</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+            <form class="search-form" action="#">
+                <input type="text" placeholder="Search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="index.html" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Bloggies. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Bootstrap or other functionalities -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
